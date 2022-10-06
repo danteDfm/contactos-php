@@ -1,0 +1,50 @@
+
+.table{
+    
+   
+    left: 300px;
+    top: 200px;
+    position: relative;
+    width: 1140px;
+     height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+.contentFilas{
+
+    border: 2px red solid;
+    width: 180px;
+    height: 120px;
+    text-align: center;
+    border-radius: 5px;
+    
+    
+ 
+   
+}
+
+.contentFilas > li{
+
+   
+    list-style: none;
+
+}
+.t1{
+    margin-top: 10px;
+}
+
+.botomB{
+
+    border: 2px red solid;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    left: -30px;
+    color: black;
+    font-size: 15px;
+}

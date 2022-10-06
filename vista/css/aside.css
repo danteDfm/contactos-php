@@ -1,0 +1,46 @@
+.asideIzquierdo{
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 750px;
+    background-color: grey;
+   
+
+ 
+  
+}
+
+.formulario{
+
+   position: relative;
+    top: 100px;
+    left: 0px;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    
+   
+}
+
+.formulario > div {
+    position: relative;
+    top: 30px;
+    text-align: center;
+
+}
+h3{
+    position: relative;
+    top: 35px;
+}
+
+input{
+    padding: 10px;
+    margin-top: 5px;
+}
+
+input:focus{
+
+    background-color:cadetblue;
+}

@@ -1,0 +1,48 @@
+body{
+   font-family:'Courier New', Courier, monospace;
+}
+
+.cabecera{
+
+    position: absolute;
+    background-color: grey;
+    width: 1536px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+   
+    
+}
+
+.listContent{
+
+    border-bottom: 2px black solid;
+    position: absolute;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    width: 400px;
+    top: 14px;
+    left: 630px;
+}
+.listItem1, .listItem2, .listItem3{
+
+    position: relative;
+    padding: 10px;
+    list-style: none;
+
+}
+a{
+
+    text-decoration:dashed ;
+    text-align: center;
+    color: white;
+
+}
+
+.listContent > li:hover{
+
+    border-radius: 5px;
+    background-color: brown;
+
+}
